@@ -1,0 +1,392 @@
+.front-main {
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.row_wrapper {
+    display: flex;
+    justify-content: space-around;
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px; */
+    height: 60px;
+    width: 100%;
+    top: 0px;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+
+.front-DivHeaderWrapperMain {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 1200px;
+    padding-right: 24px;
+    padding-left: 20px;
+}
+
+.front-logo {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.front-SpanHamburgerContainer {
+    width: 38px;
+    height: 38px;
+    position: relative;
+    cursor: pointer;
+    z-index: 99;
+    display: none;
+}
+
+body a:visited {
+    color: rgb(22, 24, 35);
+}
+
+.front-StyledLink-StyledLinkLogo {
+    font-size: 0px;
+}
+
+.front-positive {
+    position: relative;
+}
+
+.front-DivSearchFormContainer {
+    position: relative;
+}
+
+.front-FormElement {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 12px 16px;
+    background: rgba(22, 24, 35, 0.06);
+    border-radius: 92px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0px;
+}
+
+.front-InputElement:placeholder-shown {
+    text-overflow: ellipsis;
+}
+
+.front-InputElement {
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 0px;
+    width: 100%;
+    color: rgb(22, 24, 35);
+    caret-color: rgb(254, 44, 85);
+    appearance: textfield;
+}
+
+.front-SpanSpliter {
+    width: 1px;
+    height: 28px;
+    margin: -3px 0px;
+    background: rgba(22, 24, 35, 0.12);
+}
+
+.front-ButtonSearch {
+    padding: 11px 16px 11px 12px;
+    margin: -12px -16px -12px 0px;
+    font-size: 0px;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    right: 20px;
+    border: none;
+    background: transparent;
+}
+
+.front-DivSearchIconContainer {
+    outline: none;
+}
+
+.front-DivInputBorder {
+    display: none;
+    position: absolute;
+    inset: 0px;
+    border: 1px solid rgba(22, 24, 35, 0.2);
+    border-radius: 92px;
+    z-index: -1;
+}
+
+.front-DivHeaderRightContainer {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.front-DivUploadContainer {
+    margin-left: 0px;
+    position: relative;
+    height: 36px;
+}
+
+.front-ALink-StyledLink {
+    display: block;
+}
+
+.front-DivUpload {
+    min-width: 110px;
+    padding: 0px 16px;
+    height: 36px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 2px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+}
+
+.front-StyledPlusIcon {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+}
+
+.front-SpanUploadText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.front-DivMessageIconContainer {
+    margin-left: 16px;
+    cursor: pointer;
+    height: 32px;
+    padding: 3px 3px 0px;
+    position: relative;
+}
+
+.front-DivHeaderInboxContainer {
+    margin-left: 16px;
+    position: relative;
+}
+
+.front-DivProfileContainer {
+    margin-left: 24px;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background: center center / cover no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.front-DivMainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 24px 0px;
+    position: relative;
+}
+
+@media (min-width: 1160px){
+    .front-DivContentContainer {
+        width: 1140px;
+    }
+}
+.front-SectionContentWrapper {
+    width: 100%;
+    position: relative;
+}
+.front-DivTitleInfoContainer {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.front-H1TitleInfoCoin {
+    color: rgb(22, 24, 35);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0px;
+}
+.front-StyledTransactionHistoryLink {
+    color: rgb(22, 24, 35);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 22px;
+}
+.front-DivProfileAndBannerRow {
+    display: flex;
+    margin-top: 20px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    gap: 8px;
+}
+.front-DivProfileInfo {
+    max-width: 100%;
+    min-width: 255px;
+    width: max-content;
+    height: 76px;
+    padding: 16px 20px;
+    display: flex;
+    opacity: 0.8;
+    -webkit-box-pack: start;
+    place-content: center flex-start;
+    background: rgba(22, 24, 35, 0.03);
+    border-radius: 4px;
+}
+.front-DivProfileContainer {
+    margin-left: 24px;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background: center center / cover no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.front-DivNameCoinInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    padding-right: 20px;
+    min-width: 0px;
+}
+.front-SpanNameInfo {
+    color: rgb(22, 24, 35);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+}
+.front-DivCoinInfo {
+    display: flex;
+    align-content: center;
+    height: 18px;
+}
+.front-StyledCoinIcon {
+    width: 18px;
+    height: 18px;
+}
+.front-SpanCoinNum {
+    color: rgba(22, 24, 35, 0.5);
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    height: 18px;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 4px;
+}
+.front-DivRechargeCoins {
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 1.2;
+}
+.front-DivCoinsBkgContainer {
+    margin: 12px 0px 10px;
+}
+.front-OlCoinsListContainer {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 219px);
+    gap: 24px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.front-ButtonContainer {
+    width: 100%;
+    min-height: 96px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 18px 2px 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    user-select: none;
+    cursor: pointer;
+    pointer-events: initial;
+    opacity: 1;
+    background-color: transparent;
+}
+.front-DivNumContainer {
+    height: 32px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.front-SpanNumIcon {
+    height: 32px;
+}
+.front-SpanTextNow {
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(22, 24, 35, 0.5);
+    text-align: center;
+    line-height: 1.1;
+} 
+.front-DivTextContainer {
+    height: 20px;
+    margin-top: 8px;
+    display: flex;
+}
+
+.front-SpanNumDisplay {
+    font-family: ProximaNova, Arial, Tahoma, PingFangSC, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    display: inline-block;
+    color: rgb(22, 24, 35);
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right: 0px;
+    font-weight: 700;
+}
+.front-DivContentContainer {
+    box-sizing: border-box;
+    width: calc(100% - 144px);
+    min-width: 400px;
+    height: 100%;
+    border-radius: 8px;
+    padding: 32px 0px;
+}

@@ -1,0 +1,304 @@
+        @media screen and (max-width:500px) {}
+        /* For Desktop View */
+        
+        @media screen and (min-width: 1024px) {
+            .home_swiper .swiper_slide .header-image {
+                position: relative;
+                left: 0;
+                height: 50rem;
+                width: 100%;
+                display: flex;
+                opacity: 0;
+            }
+            .home_swiper .header_copy {
+                margin-top: 3rem;
+                text-align: right;
+            }
+            .home_swiper .header_copy .header_heading .h1.highlight span,
+            .home_swiper .header_copy .header_heading h1.highlight span {
+                position: relative;
+                transition: opacity .35s linear;
+                font-size: 3rem;
+                height: 7.5rem;
+                display: inline-block;
+                line-height: 6rem;
+                padding: 0.5rem 1rem;
+                background: #0f2c58;
+                margin: 10px 0;
+                font-family: Roboto, sans-serif;
+            }
+            .home_swiper .swiper_wrapper .swiper_image {
+                position: absolute;
+            }
+        }
+        /* For Tablet View */
+        
+        @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+        /* For Mobile Portrait View */
+        
+        @media screen and (max-device-width: 480px) and (orientation: portrait) {
+            #bg_filter {
+                display: block !important;
+            }
+            .front_button_search {
+                display: none;
+            }
+            .primary_nav {
+                display: none;
+            }
+            .banner_overlay {
+                background-color: #ebebeb;
+                color: #0f2c58;
+            }
+            .banner_home .page_title {
+                color: #0f2c58;
+                font-size: 25px;
+            }
+            .banner_home .page_subtitle {
+                color: #0f2c58;
+                font-size: 15px;
+            }
+            .home_swiper .header_copy .header_heading .h1.highlight span,
+            .home_swiper .header_copy .header_heading h1.highlight span {
+                position: relative;
+                transition: opacity .35s linear;
+                font-size: 2rem;
+                height: 4rem;
+                display: inline-block;
+                line-height: 3rem;
+                padding: 0.5rem 1rem;
+                background: #0f2c58;
+                margin: 10px 0;
+                font-family: Roboto, sans-serif;
+            }
+            .blink_button {
+                font-size: 12px;
+                padding: 0px 10px;
+            }
+            .front_topbar .front_store::before {
+                display: none;
+            }
+            .mobile_hidden {
+                display: none;
+            }
+            .front_contents ul li {
+                margin: 0 10px 0 0;
+            }
+            .front_menu_navi {
+                padding: 25px 0;
+            }
+            .home_swiper .header_copy .header_heading .h1.highlight span,
+            .home_swiper .header_copy .header_heading h1.highlight span {
+                position: relative;
+                transition: opacity .35s linear;
+                font-size: 1rem;
+                height: 3rem;
+                display: inline-block;
+                line-height: 3rem;
+                padding: 0.5rem 1rem;
+                background: #0f2c58;
+                margin: 10px 0;
+                font-family: Roboto, sans-serif;
+            }
+            .home_swiper .header_copy .header_heading {
+                position: absolute;
+                z-index: 10;
+                top: 20%;
+            }
+            .home_swiper .header_copy .header_heading+.header_subheading {
+                margin-top: 5rem;
+            }
+            .section_heading {
+                text-align: center;
+            }
+            h2.underline {
+                font-size: 2.2rem;
+            }
+        }
+        /* For Mobile Landscape View */
+        
+        @media screen and (max-device-width: 640px) and (orientation: landscape) {
+            #bg_filter {
+                display: block !important;
+            }
+            .front_button_search {
+                display: none;
+            }
+            .primary_nav {
+                display: none;
+            }
+            .banner_overlay {
+                background-color: #ebebeb;
+            }
+            .home_swiper .header_copy .header_heading .h1.highlight span,
+            .home_swiper .header_copy .header_heading h1.highlight span {
+                position: relative;
+                transition: opacity .35s linear;
+                font-size: 2rem;
+                height: 4rem;
+                display: inline-block;
+                line-height: 3rem;
+                padding: 0.5rem 1rem;
+                background: #0f2c58;
+                margin: 10px 0;
+                font-family: Roboto, sans-serif;
+            }
+            .banner_home .page_title {
+                color: #0f2c58;
+                font-size: 25px;
+            }
+            .banner_home .page_subtitle {
+                color: #0f2c58;
+                font-size: 15px;
+            }
+        }
+        /* For Mobile Phones Portrait or Landscape View */
+        
+        @media screen and (max-device-width: 640px) {
+            #bg_filter {
+                display: block !important;
+            }
+            .front_button_search {
+                display: none;
+            }
+            .primary_nav {
+                display: none;
+            }
+            .banner_overlay {
+                background-color: #ebebeb;
+                color: #0f2c58;
+            }
+            .banner_home .page_title {
+                color: #0f2c58;
+                font-size: 25px;
+            }
+            .banner_home .page_subtitle {
+                color: #0f2c58;
+                font-size: 15px;
+            }
+            .home_swiper .header_copy .header_heading .h1.highlight span,
+            .home_swiper .header_copy .header_heading h1.highlight span {
+                position: relative;
+                transition: opacity .35s linear;
+                font-size: 2rem;
+                height: 4rem;
+                display: inline-block;
+                line-height: 3rem;
+                padding: 0.5rem 1rem;
+                background: #0f2c58;
+                margin: 10px 0;
+                font-family: Roboto, sans-serif;
+            }
+        }
+        /* For iPhone 4 Portrait or Landscape View */
+        
+        @media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+            #bg_filter {
+                display: block !important;
+            }
+            .front_button_search {
+                display: none;
+            }
+            .banner_home .page_title {
+                color: #0f2c58;
+                font-size: 25px;
+            }
+            .banner_home .page_subtitle {
+                color: #0f2c58;
+                font-size: 15px;
+            }
+            .primary_nav {
+                display: none;
+            }
+            .banner_overlay {
+                background-color: #ebebeb;
+            }
+            .home_swiper .header_copy .header_heading .h1.highlight span,
+            .home_swiper .header_copy .header_heading h1.highlight span {
+                position: relative;
+                transition: opacity .35s linear;
+                font-size: 2rem;
+                height: 4rem;
+                display: inline-block;
+                line-height: 3rem;
+                padding: 0.5rem 1rem;
+                background: #0f2c58;
+                margin: 10px 0;
+                font-family: Roboto, sans-serif;
+            }
+        }
+        /* For iPhone 5 Portrait or Landscape View */
+        
+        @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+            #bg_filter {
+                display: block !important;
+            }
+            .front_button_search {
+                display: none;
+            }
+            .banner_home .page_title {
+                color: #0f2c58;
+                font-size: 25px;
+            }
+            .banner_home .page_subtitle {
+                color: #0f2c58;
+                font-size: 15px;
+            }
+            .primary_nav {
+                display: none;
+            }
+            .banner_overlay {
+                background-color: #ebebeb;
+            }
+            .home_swiper .header_copy .header_heading .h1.highlight span,
+            .home_swiper .header_copy .header_heading h1.highlight span {
+                position: relative;
+                transition: opacity .35s linear;
+                font-size: 2rem;
+                height: 4rem;
+                display: inline-block;
+                line-height: 3rem;
+                padding: 0.5rem 1rem;
+                background: #0f2c58;
+                margin: 10px 0;
+                font-family: Roboto, sans-serif;
+            }
+        }
+        /* For iPhone 6 and 6 plus Portrait or Landscape View */
+        
+        @media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+            #bg_filter {
+                display: block !important;
+            }
+            .front_button_search {
+                display: none;
+            }
+            .primary_nav {
+                display: none;
+            }
+            .banner_overlay {
+                background-color: #ebebeb;
+                color: #0f2c58;
+            }
+            .banner_home .page_title {
+                color: #0f2c58;
+                font-size: 25px;
+            }
+            .banner_home .page_subtitle {
+                color: #0f2c58;
+                font-size: 15px;
+            }
+            .home_swiper .header_copy .header_heading .h1.highlight span,
+            .home_swiper .header_copy .header_heading h1.highlight span {
+                position: relative;
+                transition: opacity .35s linear;
+                font-size: 2rem;
+                height: 4rem;
+                display: inline-block;
+                line-height: 3rem;
+                padding: 0.5rem 1rem;
+                background: #0f2c58;
+                margin: 10px 0;
+                font-family: Roboto, sans-serif;
+            }
+        }

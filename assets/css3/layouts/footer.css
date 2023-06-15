@@ -1,0 +1,217 @@
+.footer,
+.footer p {
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+    background-color: #0f2c58;
+    color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 15px;
+    clear: both;
+    background-position: center center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.front_large_footer {
+    padding: 100px 0 5px 0;
+    margin: 0 -15px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: normal;
+    -moz-justify-content: normal;
+    -ms-justify-content: normal;
+    justify-content: normal;
+    -webkit-align-items: normal;
+    -moz-align-items: normal;
+    -ms-align-items: normal;
+    align-items: normal;
+    width: 100%;
+}
+
+.front_footer_widget {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.front_widget_content {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.front_footer_widget .front_widget_content .footer-logo {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.front_footer_widget .front_widget_content .footer-logo .fLogo {
+    display: block;
+}
+
+mo_footer_widget .front_widget_content .footer-logo .fLogo .front_wid_logo_img {
+    margin: 0;
+}
+
+.footer .front_footer_widget .front_widget_content h3 {
+    font-size: 20px;
+    color: #c6142e;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-style: normal !important;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.front_footer_widget h3 span {
+    position: relative;
+    padding: 0;
+}
+
+.footer .widget_nav_menu div>ul {
+    margin-top: -5px;
+}
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer .widget_nav_menu div>ul>li {
+    padding: 3px 0 3px 0px;
+    list-style: none;
+    position: relative;
+    margin-left: 0;
+}
+
+.footer .widget_nav_menu div>ul>li a span {
+    padding: 0 5px;
+}
+
+.footer .widget_nav_menu div>ul>li p {
+    overflow: hidden;
+    margin-top: -3px;
+    opacity: .6;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 20px;
+}
+
+.footer .widget_nav_menu div>ul>li p span i {
+    margin-right: 5px;
+    font-weight: 400;
+}
+
+.logo_text,
+.logo_text span {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+}
+
+.logo_text .nep {
+    padding: 20px 0;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo_text .eng {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.front_contact_footer,
+.front_contact_footer a {
+    color: #ffffff;
+}
+
+.front_contact_footer {
+    position: relative;
+}
+
+.front_contact_footer::before {
+    border-color: #3b3c3f;
+}
+
+.front_contact_footer::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    border-top: 1px dashed;
+    z-index: 0;
+}
+
+.cont_column {
+    min-height: 30px;
+    line-height: 30px;
+    padding: 23px 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-sizing: border-box;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.front_contact_footer_holder {
+    background: #c6142e;
+}
+
+.front_contact_footer .front_row {
+    margin: 0;
+}
+
+.cont_icon {
+    margin-top: 5px;
+    font-size: 20px;
+    background: rgba(255, 255, 255, .05);
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    float: left;
+    border-radius: 100%;
+}
+
+.cont_subtitle,
+.cont_title {
+    font-style: normal !important;
+    font-weight: 700;
+    display: block;
+    padding-left: 68px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.front_small_footer {
+    min-height: 67px;
+    padding: 25px 0 25px;
+    text-align: center;
+}
